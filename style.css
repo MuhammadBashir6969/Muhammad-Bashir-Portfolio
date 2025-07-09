@@ -259,8 +259,9 @@ section {
 }
 
 .btn-container {
-  gap: 1rem;
   display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 
@@ -363,7 +364,6 @@ article .icon{
 
 #projects {
   position: relative;
-  /* scroll-snap-type: y mandatory; */
 }
 
 .color-container {
@@ -386,6 +386,7 @@ article .icon{
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
 
 
 
@@ -417,12 +418,13 @@ article .icon{
   margin: 1rem;
 }
 
+
 .contact-info-container p {
   font-size: larger;
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
 .email-icon {
